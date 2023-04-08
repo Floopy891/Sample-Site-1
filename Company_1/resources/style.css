@@ -1,0 +1,421 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General Body Styling */
+  body {
+    font-size: 16px;
+    background-color: #c5e8fa;
+    color: #020729;
+    max-height: auto;
+    max-width: auto;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lora', serif;
+  }
+  
+  p {
+    font-family: 'Sofia Sans', sans-serif;
+  }
+  
+  /* Link styling */
+  a {
+    font-family: 'Sofia Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #f0f5f2;
+  }
+  
+  a:visited {
+    color: #0b1c8c;
+    text-decoration-style: double;
+  }
+  
+  a:active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #2e2c2a;
+  }
+  
+  /* Header Style */
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: #e38f09;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1.5px solid white;
+  }
+  
+  .heading {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+  .club-logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .club-logo img {
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navlist {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .navi {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+  li.navi {
+    display: inline-flex;
+    padding-left: 25%;
+    padding-right: 10%;
+  }
+  
+  /* Main Banner Styles */
+  main {
+    background-image: url(https://images.unsplash.com/photo-1531419859879-934d18f6c42d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10rem;
+    text-align: center;
+    opacity: 0.9;
+  }
+  
+  .flex-banner {
+    padding-top: 2rem;
+    color: #020729;
+  }
+  
+  .flex-banner h1 {
+    font-size: 2.45rem;
+    font-weight: bolder;
+  }
+  
+  .flex-banner h4 {
+    font-style: italic;
+    font-size: 1.4rem;
+    padding-top: 0.7rem;
+    font-weight: none;
+  }
+  
+  /* Club history article styles */
+  .article-container {
+    display: inline-flex;
+  }
+  
+  article {
+    display: inline;
+    max-width: 100%;
+  }
+  
+  article h2 {
+    padding-bottom: 1.2rem;
+    padding-top: 0.65rem;
+    text-align: center;
+  }
+  
+  figure {
+    float: right;
+  }
+  
+  figure figcaption {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 0.85rem;
+  }
+  
+  .fig {
+    max-width: 20rem;
+    height: 10rem;
+  }
+  
+  .history {
+    float: left;
+    max-width: 60%;
+  }
+  
+  /* Travel Grid Section */
+  section {
+    margin: 0.75rem 1.5rem;
+    padding-top: 1.45rem;
+    height: 25.75rem;
+    width: auto;
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-area: 1fr / repeat(3, 1fr);
+  }
+  
+  .grid-container p {
+    font-size: 0.85rem;
+    text-align: left;
+    padding: 0.025rem 0.25rem;
+  }
+  
+  .grid-container a {
+    color: #9e4c09;
+    text-decoration: none;
+  }
+  
+  .grid-container a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: none;
+  }
+  
+  .grid-container a:visited {
+    text-decoration-style: double;
+  }
+  
+  .grid1 {
+    grid-row: 1;
+    grid-column: 1 / span 1;
+  }
+  
+  .grid2 {
+    grid-row: 1;
+    grid-column: 2 / span 1;
+  }
+  
+  .grid3 {
+    grid-row: 1;
+    grid-column: 3 / span 1;
+  }
+  
+  .grid-img {
+    width: 10rem;
+    max-height: 10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  /* Form Styles */
+  .contact-form h3 {
+    text-align: right;
+  }
+  
+  .contact-form a {
+    color: #9e4c09;
+  }
+  
+  form {
+    padding-bottom: 3rem;
+    background-image: url(https://media.istockphoto.com/id/1362700759/photo/passport-and-tickets-isolated-on-white-top-view-travel-agency-concept.jpg?s=612x612&w=is&k=20&c=7hm5hXmToMU1FOCTIUSCz2fWpYF9hsdcCUFrP_AOhWc=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    opacity: 0.77;
+  }
+  
+  input {
+    border-radius: 0.5px;
+  }
+  
+  label {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Footer Styles */
+  footer {
+    display: inline-flex;
+    flex: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .footimg {
+    max-height: 1rem;
+    max-width: 1rem;
+  }
+  
+  #footlink {
+    color: #9e4c09;
+    text-decoration: none;
+  }
+  
+  #footlink:hover {
+    color: #9e4c09;
+    text-decoration: underline;
+  }
+  
+  #footlink:visited {
+    text-decoration-style: double;
+  }
+  
+  /* Media Queries */
+  
+  @media only screen and (min-width: 980px) {
+    .fig img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .flex-banner h1 {
+      font-size: 2rem;
+    }
+  
+    .flex-banner h4 {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media only screen and (max-width: 634px) {
+    figure {
+      display: none;
+    }
+  
+    .article-container {
+      display: inline-block;
+      width: 100%;
+    }
+  
+    .history {
+      display: inline-block;
+      float: none;
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+  
+    .history p {
+      display: flex;
+      width: 100%;
+      font-size: 0.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 570px) {
+    .flex-banner h1 {
+      font-size: 1.75rem;
+    }
+  
+    .flex-banner h4 {
+      font-size: 1rem;
+    }
+  
+    .grid-container {
+      display: grid;
+      grid-area: repeat(3, 1fr) / 1fr;
+    }
+  
+    .grid1 {
+      grid-row: 1 / span 1;
+      grid-column: 1 / span 1;
+    }
+  
+    .grid2 {
+      grid-row: 2 / span 1;
+      grid-column: 1 / span 1;
+    }
+  
+    .grid3 {
+      grid-row: 3 / span 1;
+      grid-column: 1 / span 1;
+    }
+  
+    .grid-img {
+      width: 10rem;
+      max-height: 10rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.75rem;
+    }
+  
+    .contact-form h3 {
+      display: none;
+    }
+  
+    form {
+      margin-top: 27rem;
+    }
+  }
+  
+  @media only screen and (min-width: 470px) and (max-width: 480px) {
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;;
+  }
+  
+  li {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 2px;
+    width: auto;
+    float: right;
+  }
+  
+  header {
+    height: auto;
+    width: auto;
+  }
+  
+  .navlist {
+    display: block;
+    overflow: auto;
+  }
+  
+  .club-logo img {
+    height: auto;
+    width: 5rem;
+  }
+  }
